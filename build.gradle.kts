@@ -31,7 +31,7 @@ kotlin {
             dependencies {
                 implementation(compose.web.core)
                 implementation(compose.runtime)
-                implementation("me.tatarka.inject:kotlin-inject-runtime:0.5.1")
+                implementation("me.tatarka.inject:kotlin-inject-runtime:0.6.1")
             }
         }
         val jsTest by getting {
@@ -43,5 +43,5 @@ kotlin {
 }
 
 dependencies {
-    add("kspJs", "me.tatarka.inject:kotlin-inject-compiler-ksp:0.5.1")
+    add("kspJs", "me.tatarka.inject:kotlin-inject-compiler-ksp:0.6.1")
 }
